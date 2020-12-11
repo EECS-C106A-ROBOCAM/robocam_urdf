@@ -51,45 +51,45 @@
     <link name="link_1">
         <visual>
             <geometry>
-                <cylinder length=".342" radius="0.005"/>
+                <cylinder length=".336" radius="0.005"/>
             </geometry>
-            <origin xyz="0 0 .171" rpy="0 0 0" />
+            <origin xyz="0 0 .1685" rpy="0 0 0" />
         </visual>
         
         <inertial>
-            <origin xyz="0 0 .171" rpy="0 0 0"/>
+            <origin xyz="0 0 .1685" rpy="0 0 0"/>
             <mass value="1.5" />
             <inertia ixx=".001" ixy="0" ixz="0" iyy=".001" iyz="0" izz=".001" />
         </inertial>
 
         <collision>
             <geometry>
-                <cylinder length=".342" radius="0.005"/>
+                <cylinder length=".336" radius="0.005"/>
             </geometry>
-            <origin xyz="0 0 .171" rpy="0 0 0" />
+            <origin xyz="0 0 .1685" rpy="0 0 0" />
         </collision>
     </link>
 
     <link name="link_1_mimic">
         <visual>
             <geometry>
-                <cylinder length=".342" radius="0.005"/>
+                <cylinder length=".336" radius="0.005"/>
             </geometry>
-            <origin xyz="0 0 .171" rpy="0 0 0" />
+            <origin xyz="0 0 .1685" rpy="0 0 0" />
             <material name='yellow'>
                 <color rgba="0.9 0.9 0 1"/>
             </material>
         </visual>
         
         <inertial>
-            <origin xyz="0 0 .171" rpy="0 0 0"/>
+            <origin xyz="0 0 .1685" rpy="0 0 0"/>
             <mass value="1.5" />
             <inertia ixx=".001" ixy="0" ixz="0" iyy=".001" iyz="0" izz=".001" />
         </inertial>
 
         <collision>
             <geometry>
-                <cylinder length=".342" radius="0.005"/>
+                <cylinder length=".336" radius="0.005"/>
             </geometry>
             <origin xyz="0 0 .171" rpy="0 0 0" />
         </collision>
@@ -315,13 +315,13 @@
     <joint name="joint_1_f1" type="fixed">
         <parent link="link_1"/>
         <child link="link_f1"/>
-        <origin xyz="0 0 .32" rpy="-0.5470 0 0" />
+        <origin xyz="0 0 .337" rpy="-0.5470 0 0" />
     </joint>
 
     <joint name="joint_1_mimic_f1" type="continuous">
         <parent link="link_1_mimic"/>
         <child link="link_f1"/>
-        <origin xyz="0 0 .32" rpy="-0.5470 0 0" />
+        <origin xyz="0 0 .337" rpy="-0.5470 0 0" />
         <mimic joint="joint_rot_1" multiplier="-1" offset="0"/>
     </joint>
 
@@ -344,14 +344,14 @@
     <joint name="joint_2_mimic_f2" type="continuous">
         <parent link="link_2_mimic"/>
         <child link="link_f2"/>
-        <origin xyz="0 0 .32" rpy="0.4672 0 0" />
+        <origin xyz="0 0 .34" rpy="0.4672 0 0" />
         <mimic joint="joint_f1_2" multiplier="-1" offset="0"/>
     </joint>
 
     <joint name="joint_2_f2" type="fixed">
         <parent link="link_2"/>
         <child link="link_f2"/>
-        <origin xyz="0 0 .32" rpy="0.4672 0 0" />
+        <origin xyz="0 0 .34" rpy="0.4672 0 0" />
     </joint>
 
     <joint name="joint_f2_pitch" type="revolute">
