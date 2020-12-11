@@ -51,47 +51,47 @@
     <link name="link_1">
         <visual>
             <geometry>
-                <cylinder length=".32" radius="0.005"/>
+                <cylinder length=".342" radius="0.005"/>
             </geometry>
-            <origin xyz="0 0 .16" rpy="0 0 0" />
+            <origin xyz="0 0 .171" rpy="0 0 0" />
         </visual>
         
         <inertial>
-            <origin xyz="0 0 .16" rpy="0 0 0"/>
+            <origin xyz="0 0 .171" rpy="0 0 0"/>
             <mass value="1.5" />
             <inertia ixx=".001" ixy="0" ixz="0" iyy=".001" iyz="0" izz=".001" />
         </inertial>
 
         <collision>
             <geometry>
-                <cylinder length=".32" radius="0.005"/>
+                <cylinder length=".342" radius="0.005"/>
             </geometry>
-            <origin xyz="0 0 .16" rpy="0 0 0" />
+            <origin xyz="0 0 .171" rpy="0 0 0" />
         </collision>
     </link>
 
     <link name="link_1_mimic">
         <visual>
             <geometry>
-                <cylinder length=".32" radius="0.005"/>
+                <cylinder length=".342" radius="0.005"/>
             </geometry>
-            <origin xyz="0 0 .16" rpy="0 0 0" />
+            <origin xyz="0 0 .171" rpy="0 0 0" />
             <material name='yellow'>
                 <color rgba="0.9 0.9 0 1"/>
             </material>
         </visual>
         
         <inertial>
-            <origin xyz="0 0 .16" rpy="0 0 0"/>
+            <origin xyz="0 0 .171" rpy="0 0 0"/>
             <mass value="1.5" />
             <inertia ixx=".001" ixy="0" ixz="0" iyy=".001" iyz="0" izz=".001" />
         </inertial>
 
         <collision>
             <geometry>
-                <cylinder length=".32" radius="0.005"/>
+                <cylinder length=".342" radius="0.005"/>
             </geometry>
-            <origin xyz="0 0 .16" rpy="0 0 0" />
+            <origin xyz="0 0 .171" rpy="0 0 0" />
         </collision>
     </link>
 
@@ -122,48 +122,48 @@
     <link name="link_2">
         <visual>
             <geometry>
-                <cylinder length=".32" radius="0.005"/> </geometry>
-            <origin xyz="0 0 .16" rpy="0 0 0" /> <material name='blue'>
+                <cylinder length=".34" radius="0.005"/> </geometry>
+            <origin xyz="0 0 .17" rpy="0 0 0" /> <material name='blue'>
                 <color rgba="0 0 0.8 1"/>
             </material>
         </visual>
         
         <inertial>
-            <origin xyz="0 0 .16" rpy="0 0 0"/>
+            <origin xyz="0 0 .17" rpy="0 0 0"/>
             <mass value="1.5" />
             <inertia ixx=".001" ixy="0" ixz="0" iyy=".001" iyz="0" izz=".001" />
         </inertial>
 
         <collision>
             <geometry>
-                <cylinder length=".32" radius="0.005"/>
+                <cylinder length=".34" radius="0.005"/>
             </geometry>
-            <origin xyz="0 0 .16" rpy="0 0 0" />
+            <origin xyz="0 0 .17" rpy="0 0 0" />
         </collision>
     </link>
 
     <link name="link_2_mimic">
         <visual>
             <geometry>
-                <cylinder length=".32" radius="0.005"/>
+                <cylinder length=".34" radius="0.005"/>
             </geometry>
-            <origin xyz="0 0 .16" rpy="0 0 0" />
+            <origin xyz="0 0 .17" rpy="0 0 0" />
             <material name='yellow'>
                 <color rgba="0.9 .9 0 1"/>
             </material>
         </visual>
         
         <inertial>
-            <origin xyz="0 0 .16" rpy="0 0 0"/>
+            <origin xyz="0 0 .17" rpy="0 0 0"/>
             <mass value="1.5" />
             <inertia ixx=".001" ixy="0" ixz="0" iyy=".001" iyz="0" izz=".001" />
         </inertial>
 
         <collision>
             <geometry>
-                <cylinder length=".32" radius="0.005"/>
+                <cylinder length=".34" radius="0.005"/>
             </geometry>
-            <origin xyz="0 -.117 .16" rpy="0 0 0" />
+            <origin xyz="0 -.117 .17" rpy="0 0 0" />
         </collision>
     </link>
 
